@@ -18,13 +18,13 @@ print('Cotton collected by workers:', cottonAmount, 'kg')
 if cottonAmount >= 550:
     print('Good work.')
 elif 420 <= cottonAmount < 550:
-    print('Let it be.')
+    print('Alright.')
 elif 270 <= cottonAmount < 420:
     print('Bad!! You need to work more!')
 elif 150 <= cottonAmount < 270:
     print('Pathetic niggers! Work much more!!!')
 elif 60 <= cottonAmount < 150:
     print('Fuck these niggers! Take the whips!')
-elif cottonAmount < 60:
+else:
     print('Fuck these stupid niggers! Kill all niggers!!!')
 wb.save('cotton-field.xlsx')
