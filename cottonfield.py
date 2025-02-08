@@ -26,5 +26,5 @@ elif 150 <= cottonAmount < 270:
 elif 60 <= cottonAmount < 150:
     print('Fuck these niggers! Take the whips!')
 else:
-    print('Fuck these stupid niggers! Kill all niggers!!!')
+    print('Fuck these stupid niggers! Kill all these niggers!!!')
 wb.save('cotton-field.xlsx')
